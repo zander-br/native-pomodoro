@@ -18,10 +18,12 @@
 
 ## Screenshots
 
-![Welcome](screenshot/welcome.jpeg)
+<img src="screenshot/welcome.jpeg" width="400px;" alt="Welcome"/>
+
 _Welcome screen_
 
-![Welcome](screenshot/timer.jpeg)
+<img src="screenshot/timer.jpeg" width="400px;" alt="Timer"/>
+
 _Timer screen_
 
 ## Technologies
