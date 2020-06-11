@@ -9,7 +9,7 @@ const AppStack = createStackNavigator();
 
 const Routes = () => (
   <NavigationContainer>
-    <AppStack.Navigator>
+    <AppStack.Navigator screenOptions={{ headerShown: false }}>
       <AppStack.Screen name="Welcome" component={Welcome} />
       <AppStack.Screen name="Timer" component={Timer} />
     </AppStack.Navigator>
