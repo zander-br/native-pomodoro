@@ -18,6 +18,12 @@
 
 ## Screenshots
 
+![Welcome](screenshot/welcome.jpeg)
+_Welcome screen_
+
+![Welcome](screenshot/timer.jpeg)
+_Timer screen_
+
 ## Technologies
 
 - [React Native](https://reactnative.dev/)
