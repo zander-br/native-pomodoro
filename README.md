@@ -20,6 +20,14 @@
 
 ## Technologies
 
+- [React Native](https://reactnative.dev/)
+- [Typscript](https://www.typescriptlang.org/)
+- [Expo](https://expo.io/)
+- [React Navigation](https://reactnavigation.org/)
+- [Eslint](https://eslint.org/)
+- [Husky](https://github.com/typicode/husky)
+- [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+
 ## Installation
 
 ## Usage
