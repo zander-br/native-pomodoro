@@ -16,6 +16,8 @@
 - [Usage](#usage)
 - [License](#license)
 
+## Screenshots
+
 ## Technologies
 
 ## Installation
