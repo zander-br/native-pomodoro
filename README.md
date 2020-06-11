@@ -1,122 +1,27 @@
-# Readme Boilerplate
+# Native Pomodoro :tomato:
 
 ![native-pomodoro](https://img.shields.io/badge/zander--br-Native%20Pomodoro-red)
 ![language](https://img.shields.io/badge/language-Typescript-blue)
+![license](https://img.shields.io/github/license/zander-br/native-pomodoro)
 
-> Readme boilerplate and generator
+> Application to use the pomodoro technique
 
-A `simple` :zap: readme boilerplate and a generator to customize it even faster!
+:tomato: Pomodoro timer with react native using the expo :alarm_clock:
 
 ## Table of Contents
 
-- [Installation](#package-installation)
-- [Usage](#rocket-usage)
-- [Support](#hammer_and_wrench-support)
-- [Contributing](#memo-contributing)
-- [License](#scroll-license)
+- [Screenshots](#screenshots)
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
 
-## :package: Installation
+## Technologies
 
-### First check if you have NPM installed
+## Installation
 
-Before installing this Readme Generator you need to check if you have `Node.js`and `NPM` installed on your computer.
+## Usage
 
-To check if you have `Node.js` installed, run this command in your terminal:
+## License
 
-```sh
-node -v
-```
-
-If you get an answer like this, it means that `Node.js` is installed and you may go to the [next section](#then-install-the-readme-generator).
-
-```sh
-v10.14.1
-```
-
-To confirm that you have `NPM` installed you can run this command in your terminal:
-
-```sh
-npm -v
-```
-
-If you get an answer like this, it means that `Node.js` is installed and you may go to the [next section](#then-install-the-readme-generator).
-
-```sh
-6.4.1
-```
-
-If `Node.js` or `NPM` is not installed you can install them on [this link](https://nodejs.org/en/)
-
-Don't forget to update `NPM` after installing `Node.js`:
-
-```sh
-npm install npm@latest -g
-```
-
-### Then install the Readme Generator
-
-```sh
-npm install --global readme-boilerplate
-```
-
-## :rocket: Usage
-
-```sh
-readme-gen
-```
-
-Then, you can modify the content of your readme.
-
-
-### Tips
-
-Here are a few tips to make them more beautiful!
-
-### Screencasts with [RecordIt](http://recordit.co/)
-
-![screencast](https://github.com/dbader/readme-template/blob/master/header.png?raw=true)
-
-```sh
-![screencast](http://recordit.co/images/logo.jpg)
-```
-
-### Badges with [Shield](https://shields.io/)
-
-![badge](https://img.shields.io/badge/LEFT-RIGHT-brightgreen.svg) `![badge](https://img.shields.io/badge/LEFT-RIGHT-COLOR.svg)`
-
-### Emoji [cheatsheet](emoji.md)
-
-- :hammer_and_wrench: `:hammer_and_wrench:`
-- :artificial_satellite: `:artificial_satellite:`
-- :small_red_triangle: `:small_red_triangle:`
-- :small_red_triangle_down: `:small_red_triangle_down:`
-- :white_check_mark: `:white_check_mark:`
-- :construction: `:construction:`
-- :warning: `:warning:`
-- :rocket: `:rocket:`
-- :books: `:books:`
-- :briefcase: `:briefcase:`
-- :package: `:package:`
-- :fire: `:fire:`
-- :star: `:star:`
-- :+1: `:+:`
-- :-1: `:-:`
-- :point_right: `:point_right:`
-- :point_down: `:point_down:`
-- :zap: `:zap:`
-- :cloud: `:cloud:`
-- :envelope_with_arrow: `:envelope_with_arrow:`
-- :memo: `:memo:`
-- :unicorn: `:unicorn:`
-
-## :hammer_and_wrench: Support
-
-Please [open an issue](https://github.com/leonard-henriquez/readme-boilerplate/issues/new) for support.
-
-## :memo: Contributing
-
-Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/leonard-henriquez/readme-boilerplate/compare/).
-
-## :scroll: License
-
-[GNU GPLv3](LICENSE) © [Leonard Henriquez](https://github.com/leonard-henriquez/)
+[MIT](LICENSE) © [Anderson Santos](https://github.com/zander-br/)
