@@ -1,5 +1,11 @@
 {
   "main": "node_modules/expo/AppEntry.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zander-br/native-pomodoro.git"
+  },
+  "author": "Anderson Santos",
+  "license": "MIT",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
