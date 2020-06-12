@@ -13,7 +13,6 @@
 - [Screenshots](#screenshots)
 - [Technologies](#technologies)
 - [Installation](#installation)
-- [Usage](#usage)
 - [License](#license)
 
 ## Screenshots
@@ -57,8 +56,6 @@ expo start
 ```
 
 To run the application on your mobile phone just install the [Expo Client](https://apps.apple.com/br/app/expo-client/id982107779) application for iPhone or [Expo](https://play.google.com/store/apps/details?id=host.exp.exponent) for Android and read the QR code with the device's camera.
-
-## Usage
 
 ## License
 
