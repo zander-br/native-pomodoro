@@ -3,7 +3,7 @@ import { LinearGradient } from 'expo-linear-gradient';
 import { MaterialIcons } from '@expo/vector-icons';
 
 export const Container = styled(LinearGradient).attrs({
-  colors: ['#e7f3fe', '#9abee0'],
+  colors: ['#fee7f3', '#e09abe'],
 })`
   flex: 1;
   justify-content: center;
@@ -11,7 +11,7 @@ export const Container = styled(LinearGradient).attrs({
 `;
 
 export const Title = styled.Text`
-  color: #1c354f;
+  color: #4f1c35;
   font-size: 28px;
   font-weight: bold;
   text-align: center;
@@ -23,7 +23,7 @@ export const Title = styled.Text`
 export const Button = styled.TouchableOpacity`
     width: 72px;
     height: 72px;
-    background: #2e5b9a;
+    background: #9a2e5b;
     border-radius: 36px;
     align-items: center;
     justify-content: center;
@@ -36,7 +36,7 @@ export const Icon = styled(MaterialIcons).attrs({
 })``;
 
 export const Progress = styled.Text`
-  color: #1c354f;
+  color: #4f1c35;
   font-size: 38px;
   font-weight: bold;
   text-align: center;
