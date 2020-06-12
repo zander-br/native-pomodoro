@@ -1,10 +1,9 @@
 import React, { useState, useRef } from 'react';
-import { Text, TouchableOpacity } from 'react-native';
-import { LinearGradient } from 'expo-linear-gradient';
-import { MaterialIcons as Icon } from '@expo/vector-icons';
 import { AnimatedCircularProgress } from 'react-native-circular-progress';
 
-import styles from './styles';
+import {
+  Container, Title, Button, Icon, Progress,
+} from './styles';
 
 function formatSeconds(seconds: number): string {
   if (seconds < 60) {
@@ -35,11 +34,8 @@ const Timer = () => {
   }
 
   return (
-    <LinearGradient
-      colors={['#e7f3fe', '#9abee0']}
-      style={styles.container}
-    >
-      <Text style={styles.title}>Native Pomodoro</Text>
+    <Container>
+      <Title>Native Pomodoro</Title>
       <AnimatedCircularProgress
         size={200}
         width={12}
@@ -48,12 +44,12 @@ const Timer = () => {
         backgroundColor="#fff"
         rotation={0}
       >
-        {() => <Text style={styles.progress}>{formatSeconds(secondsEllapsed)}</Text>}
+        {() => <Progress>{formatSeconds(secondsEllapsed)}</Progress>}
       </AnimatedCircularProgress>
-      <TouchableOpacity style={styles.button} onPress={toggleTimer}>
-        <Icon name={timerEnabled ? 'pause' : 'play-arrow'} size={32} color="#fff" />
-      </TouchableOpacity>
-    </LinearGradient>
+      <Button onPress={toggleTimer}>
+        <Icon name={timerEnabled ? 'pause' : 'play-arrow'} />
+      </Button>
+    </Container>
   );
 };
 
