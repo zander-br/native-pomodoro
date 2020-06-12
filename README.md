@@ -38,6 +38,26 @@ _Timer screen_
 
 ## Installation
 
+To run the application it is necessary to have installed the expo-cli. To do this, just run the commands below.
+
+```bash
+npm install -g expo-cli
+```
+
+Clone the project with the command
+
+```bash
+npm install
+```
+
+Running the application
+
+```bash
+expo start
+```
+
+To run the application on your mobile phone just install the [Expo Client](https://apps.apple.com/br/app/expo-client/id982107779) application for iPhone or [Expo](https://play.google.com/store/apps/details?id=host.exp.exponent) for Android and read the QR code with the device's camera.
+
 ## Usage
 
 ## License
