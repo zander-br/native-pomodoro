@@ -40,7 +40,7 @@ const Timer = () => {
         size={200}
         width={12}
         fill={(secondsEllapsed * 100) / 1500}
-        tintColor="#75a1de"
+        tintColor="#de75a1"
         backgroundColor="#fff"
         rotation={0}
       >
